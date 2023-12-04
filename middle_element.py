@@ -12,6 +12,6 @@ def middle_element(s):
         temp = s[i-1]
         s[i-1] = temp1
         temp1 = temp
-        i -= 1
+        i += 1
     s.pop()
     return s
